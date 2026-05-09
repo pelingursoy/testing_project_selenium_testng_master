@@ -1,0 +1,89 @@
+Testing Project
+
+* Build the project using Selenium WebDriver and TestNG.
+* Use `dependsOnMethods` and `priority` to create dependencies between test methods where necessary.
+* Use `@Parameters`.
+* Make your test classes executable through an XML file.
+
+---
+
+## Test Case 1: Registration Test
+
+* Navigate to:
+
+  `https://demo.nopcommerce.com/register?returnUrl=%2F`
+
+* Click the **Register** link.
+
+* Enter **First Name** and **Last Name**.
+
+* Select the **Date of Birth** using dropdown lists.
+
+* Enter an **Email** address.
+
+* Enter **Password** and **Confirm Password**.
+
+* Click the **Register** button.
+
+* Verify that the registration is completed successfully.
+
+---
+
+## Test Case 2: Login Test
+
+* Click the **Login** button.
+* Enter the registered **Email** address and **Password**.
+* Click the **LOG IN** button.
+* Verify that the user logs in successfully.
+
+---
+
+## Test Case 3: Data Provider Login Test
+
+* Click the **Login** button.
+* Retrieve valid and invalid **Email** and **Password** combinations from a Data Provider method.
+* Click the **LOG IN** button.
+* Verify whether the login operation succeeds or fails accordingly.
+
+---
+
+## Test Case 4: Tab Menu Test
+
+* Store the product names displayed in the tab menu in a list.
+* Locate the tab menu elements.
+* Verify that the located elements contain the expected product names from the tab menu.
+
+---
+
+## Test Case 5: Order Gifts Test
+
+* Click **Gifts** from the tab menu.
+* Randomly select one of the physical gift products.
+* On the product page, fill in:
+
+  * **Recipient Name**
+  * **Sender Name**
+  * **Message**
+* Click **ADD TO CART**.
+* Verify that the product is added to the cart successfully.
+
+---
+
+## Test Case 6: Order Computer Test
+
+* Hover over **Computers** in the tab menu.
+* Click **Desktops** from the dropdown menu.
+* On the opened page, select **Build your own computer**.
+* Randomly select a **RAM** option.
+* Randomly select an **HDD** option.
+* Click **ADD TO CART**.
+* Verify that the product is added to the cart successfully.
+
+---
+
+## Test Case 7: Parameterized Search Test
+
+* Enter **"Adobe Photoshop CS4"** into the search box using a parameter retrieved from the XML file.
+* Click the **Search** button.
+* Verify that the product title on the search results page contains the searched text.
+
