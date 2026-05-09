@@ -1,6 +1,3 @@
-TestingProject_04_Selenium_TestNG
-Techno Study Testing Project 4
-
 In English:
 Test Case 1: Registrations Test
 
