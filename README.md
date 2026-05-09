@@ -1,4 +1,4 @@
-In English:
+
 Test Case 1: Registrations Test
 
 ➢ Go to https://demo.nopcommerce.com/register?returnUrl=%2F
